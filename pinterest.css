@@ -1,0 +1,201 @@
+#logo {
+    width: 150px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    /* margin-top: 42px; */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    align-items: center ;
+}
+
+.mother {
+    justify-content: space-between;
+    margin-top: -20px;
+}
+
+.child2 {
+    gap: 20px;
+}
+
+.button {
+    border-radius: 15px;
+    border: none;
+    height: 40px;
+    /* margin-top: 35px; */
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: red;
+    color: white;
+}
+
+.button1:hover {
+    background-color: rgb(189, 3, 3);
+}
+
+.button2 {
+    background-color: gainsboro;
+}
+
+.mother2 {
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+.child {
+    gap: 20px;
+}
+.link {
+    color: gray;
+
+}
+
+.btn {
+    padding: 20px 15px ;
+    border-radius: 15px;
+}
+
+.btn1 {
+    border: 1px solid rgb(1, 1, 105);
+    background-color: #F2F7F8;
+}
+
+.btn2 {
+    background-color: rgb(1, 1, 105);
+    color: white;
+}
+
+.center-div {
+   
+
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #F2F7F8;
+}
+
+.content {
+    text-align: center;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    line-height: 10px;
+}
+
+.content p {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.content span {
+    font-size: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+/* Additions */
+.card {
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    padding: 15px 10px 15px 30px;
+    line-height: 22px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;    
+}
+
+
+.card1:hover {
+    background-color: #0F60D6;
+}
+
+.card2:hover {
+    background-color: #2295F2;
+}
+
+.card:hover {
+    color: white;
+}
+
+.card:hover p, .card:hover .text1, .card:hover .text2, .card:hover .text3, .card:hover .text4, .card:hover .text5, .card:hover .text6 {
+    color: white;   
+}
+.card p {
+    font-size: 30px;
+    font-weight: 600;
+}
+.card1 p, .text1 {
+    color: #0F60D6;
+}
+
+.card2 p, .text2 {
+    color: #2295F2;
+}
+
+.card-bottom {
+    display: flex;
+    gap: 10px;
+}
+
+.card3:hover{
+    background-color: #39C277;
+}
+
+.card3 p, .text3 {
+    color: #39C277;
+}
+
+
+.card4:hover  {
+    background-color: #E5489B;
+}
+
+.card4 p, .text4 {
+    color: #E5489B;
+}
+
+.card5:hover {
+    background: #0C1825;
+}
+
+.card5 p, .text5{
+    color: #0C1825;
+}
+
+.card6:hover {
+    background-color: #FF783C;
+}
+
+.card6 p, .text6 {
+    color: #FF783C;
+}
+
+.icon2 {
+    display: none;
+}
+
+.card:hover .icon{
+    content: url('../images/subdirectory_arrow_right_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png')
+}
